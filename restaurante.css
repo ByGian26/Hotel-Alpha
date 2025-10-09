@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+p {
+  margin: 0;
+}
+.restaurante-fondo {
+  background-image: url("./images/restaurante/hero-restaurante.jpg");
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  height: 100vh;
+}
+.restaurante-presentacion {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.restaurante-presentacion p {
+  padding: 0;
+}
+.restaurante-info {
+  padding: 50px;
+}
+
+.restaurante-info h1 {
+  padding: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+.restaurante-info h2 {
+  font-size: 15px;
+}
+.restaurante-info .horario {
+  display: flex;
+  align-items: center;
+}
+
+.restaurante-info .horario img {
+  width: 25px;
+}
+.restaurante-info .horario p {
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+.restaurante-info .subtitulo {
+  padding: 50px 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.restaurante-info .descripcion {
+  line-height: 18px;
+}
+.presentacion_foto {
+  background-image: url("./images/restaurante/ceviche.jpg");
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  filter: grayscale(10%);
+  margin: 50px;
+}
+.restaurante-carrusel-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 0 50px 50px;
+}
+.carousel img {
+  height: 550px;
+  filter: grayscale(30%);
+}
+.carousel .carousel-caption h5 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+.carousel .carousel-caption p {
+  line-height: 15px;
+  color: whitesmoke;
+}
+.restaurante-carrusel-section .carrusel-texto {
+  margin: 50px;
+}
+
+.fotos-container img {
+  width: 100%;
+}
